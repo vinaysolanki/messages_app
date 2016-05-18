@@ -1,0 +1,19 @@
+development:
+  adapter: postgresql
+  encoding: unicode
+  database: messages_development
+  host: localhost
+  port: 5432
+  pool: 5
+  username: admin
+  password: adm!n
+
+test:
+  adapter: postgresql
+  encoding: unicode
+  database: messages_test
+  host: localhost
+  port: 5432
+  pool: 5
+  username: admin
+  password: adm!n
