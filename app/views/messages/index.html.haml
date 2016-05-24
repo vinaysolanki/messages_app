@@ -1,1 +1,10 @@
 %h1= "Messages"
+
+- @messages.each do |message|
+  %p= message.body
+
+
+%h2= "Hashtags"
+
+- @hashtags.each do |tag, count|
+  %p= "#{tag} (#{count})"
